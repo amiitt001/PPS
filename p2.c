@@ -7,7 +7,8 @@ int main(){
 int printfib(int n){
     if(n==0){
         return 0;
-    }if(n==1){
+    }
+    if(n==1){
         return 1;
     }
     int fibNm1 = printfib(n-1);
