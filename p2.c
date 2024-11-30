@@ -1,7 +1,12 @@
 #include <stdio.h>
 int printfib(int n);
 int main(){
-    printf("fib of given  number  is %d",printfib(100));
+    int upto=10;
+    for (int i = 0; i < upto; i++)
+    {
+        printf("%d\t", printfib(i));
+    }
+    
     return 0;
 }
 int printfib(int n){
